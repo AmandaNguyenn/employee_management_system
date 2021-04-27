@@ -5,7 +5,7 @@ require("console.table");
 //start the app
 askQuestions();
 
-const askQuestions = () => {
+function askQuestions () {
     inquirer.prompt([
         {
             type: "list",
